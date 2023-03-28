@@ -24,6 +24,7 @@ class ForecastScreen : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         _binding = FragmentForecastScreenBinding.inflate(inflater, container, false)
+        setupViewPager()
         binding.weatherView.apply {
             setWeatherData(PrecipType.CLEAR)
             speed = 600
@@ -32,7 +33,7 @@ class ForecastScreen : Fragment() {
             angle = 20
             scaleFactor = 2.5f
         }
-        setupViewPager()
+
         return binding.root
     }
 

@@ -14,8 +14,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="100dp"
+        android:text=""
         android:textSize="70sp"
-        android:text="23°C"
         android:fontFamily="@font/rubik_bold"/>
 
     <ImageView
@@ -42,9 +42,10 @@
         />
 
     <TextView
+        android:id="@+id/date"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Monday \n 28/03/2023"
+        android:text=""
         android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
