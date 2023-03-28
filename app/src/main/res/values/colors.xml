@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="ice">#E8FCFF</color>
     <color name="ice_end">#00E8FCFF</color>
+    <color name="sunny_color">#42C2FF</color>
 </resources>
